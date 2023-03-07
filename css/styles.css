@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(218, 26, 26);
     color: yellow;
 }
 
@@ -13,13 +13,28 @@ body{
     height: 100vh;
     background-size: 100%;
     background-repeat: no-repeat;
-
 }
+
 
 .pacmamotion{
     position: relative;
     animation: pacman 15s infinite;
 }
+
+
+.flex{
+    display: flex;
+    justify-content:stretch;
+ }
+
+
+ audio{
+    width: 100px;
+    box-shadow: 5px 5px 20px yellow;
+    border-radius: 90px;
+    transform: scale(1.05);
+ }
+
 @keyframes pacman {
     0%          {top: 65px; left: 0px; rotate: 0deg;}
     5%          {top: 65px; left: 240px; rotate: 0deg;}
@@ -31,21 +46,80 @@ body{
     27%, 30%    {rotate:360deg;}
     38%         {top: 330px; left: 880px;}
     40%          {rotate: 40deg;}
-    45%         {top: 450px;
-    
+    45%         {top: 450px;} 
+}
 
+/*pantallaPequeña*/
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    body{
+        background-color: rgb(15, 218, 76);
     }
-   
-   
+    .fondo{
+        background-image: url(../assets/1.1.jpg);
+        height: 100vh;
+        background-size: 100%;
+        background-repeat: no-repeat;}
+
+    img{width: 20px;}
+        @keyframes pacman {
+            0%          {top: 10px; left: 0px; rotate: 0deg;}
+            5%          {top: 10px; left: 50px; rotate: 0deg;}
+            8%          {rotate: 90deg;}
+            10%         {top: 50px; left: 50px; rotate: 0deg;}
+            15%         {top: 50px; left: 185px; rotate: 0deg;}
+            22%, 25%    {rotate: 90deg;}
+            26%         {top: 80px; left: 185px; }
+            27%, 30%    {rotate:360deg;}
+            33%         {top: 80px; left: 215px;}
+            40%         {rotate: 40deg;}
+            45%         {top: 100px; left:215px ;}
+            50%         {top: 100px; left: 230px;}
+            55%         {top: 130px; left: 230px;}
+            100%        {top: 130px; left: 230px;}
+    }}
+
+
+
+        
+/*mediaquiaries Pantallamediana*/
+
+@media screen and (min-width:501px) and (max-width: 799px) {
+     body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(43, 0, 199);
+        color: yellow;}
+        .fondo{
+            background-image: url(../assets/1.1.jpg);
+            height: 100vh;
+            background-size: 100%;
+            background-repeat: no-repeat;}
     
-   
-  
-
- }
-
- .flex{
-    display: flex;
-    justify-content:stretch;
- }
- 
-
+        img{width: 20px;}
+            @keyframes pacman {
+                0%          {top: 20px; left: 0px; rotate: 0deg;}
+                5%          {top: 20px; left: 75px; rotate: 0deg;}
+                8%          {rotate: 90deg;}
+                10%         {top: 70px; left: 75px; rotate: 0deg;}
+                15%         {top: 70px; left: 265px; rotate: 0deg;}
+                22%, 25%    {rotate: 90deg;}
+                26%         {top: 110px; left: 265px; }
+                27%, 30%    {rotate:360deg;}
+                33%         {top: 110px; left: 300px;}
+                40%         {rotate: 40deg;}
+                45%         {top: 145px; left:300px ;}
+                50%         {top: 145px; left: 320px;}
+                55%         {top: 190px; left: 320px;}
+                100%         {top: 190px; left: 320px;}
+               
+                
+                
+               
+                
+                
+               
+              
+                
+        }}
+    
