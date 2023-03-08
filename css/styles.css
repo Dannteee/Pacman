@@ -51,7 +51,7 @@ body{
 
 /*pantallaPequeña*/
 
-@media screen and (min-width: 500px) and (max-width: 800px) {
+@media screen and (min-width:992px) and (max-width: 1200px) {
     body{
         background-color: rgb(15, 218, 76);
     }
@@ -63,20 +63,27 @@ body{
 
     img{width: 20px;}
         @keyframes pacman {
-            0%          {top: 10px; left: 0px; rotate: 0deg;}
-            5%          {top: 10px; left: 50px; rotate: 0deg;}
+            0%          {top: 45px; left: 0px; rotate: 0deg;}
+            5%          {top: 45px; left: 280px; rotate: 0deg;}
             8%          {rotate: 90deg;}
-            10%         {top: 50px; left: 50px; rotate: 0deg;}
-            15%         {top: 50px; left: 185px; rotate: 0deg;}
-            22%, 25%    {rotate: 90deg;}
-            26%         {top: 80px; left: 185px; }
-            27%, 30%    {rotate:360deg;}
-            33%         {top: 80px; left: 215px;}
-            40%         {rotate: 40deg;}
-            45%         {top: 100px; left:215px ;}
-            50%         {top: 100px; left: 230px;}
-            55%         {top: 130px; left: 230px;}
-            100%        {top: 130px; left: 230px;}
+            10%         {top: 130px; left: 280px; rotate: 0deg;}
+            20%         {top: 130px; left: 1150px; rotate: 0deg;}
+            22%, 25%    {rotate: -90deg;}
+            26%         {top: 45px; left: 1150px; }
+            27%, 30%    {rotate:0deg;}
+            38%         {top: 45px; left: 900px;}
+            40%         {rotate: -270deg;}
+            45%         {top: 130px; left: 900px;} 
+            50%         {rotate: 0deg;}
+            55%         {top: 130px; left: 760px;}
+            60%         {rotate: 90deg;}
+            65%         {top: 200px; left: 760px;}
+            
+           
+           
+           
+            
+           
     }}
 
 
@@ -84,7 +91,7 @@ body{
         
 /*mediaquiaries Pantallamediana*/
 
-@media screen and (min-width:501px) and (max-width: 799px) {
+@media screen and (min-width:500px) and (max-width: 800px) {
      body{
         margin: 0;
         padding: 0;
