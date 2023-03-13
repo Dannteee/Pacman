@@ -127,3 +127,33 @@ body{
                 100%        {top: 210px; left: 380px;}
             }}
     
+@media screen and (min-width:576px) and (max-width: 768px) {
+     body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(43, 0, 199);
+        color: yellow;}
+        .fondo{
+            background-image: url(../assets/1.1.jpg);
+            height: 100vh;
+            background-size: 100%;
+            background-repeat: no-repeat;}
+    
+        img{width: 15px;}
+            @keyframes pacman {
+                0%          {top: 20px; left: 0px; rotate: 0deg;}
+                5%          {top: 25px; left: 95px; rotate: 0deg;}
+                8%          {rotate: 90deg;}
+                10%         {top: 80px; left: 95px; rotate: 0deg;}
+                15%         {top: 80px; left: 315px; rotate: 0deg;}
+                22%, 25%    {rotate: 90deg;}
+                26%         {top: 130px; left: 315px; }
+                27%, 30%    {rotate:360deg;}
+                33%         {top: 130px; left: 350px;}
+                40%         {rotate: 40deg;}
+                45%         {top: 170px; left:350px ;}
+                50%         {top: 170px; left: 380px;}
+                55%         {top: 210px; left: 380px;}
+                100%        {top: 210px; left: 380px;}
+            }}
+    
