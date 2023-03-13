@@ -75,9 +75,15 @@ body{
             40%         {rotate: -270deg;}
             45%         {top: 130px; left: 900px;} 
             50%         {rotate: 0deg;}
-            55%         {top: 130px; left: 760px;}
+            55%         {top: 130px; left: 690px;}
             60%         {rotate: 90deg;}
-            65%         {top: 200px; left: 760px;}
+            65%         {top: 200px; left: 690px;}
+            70%         {top: 200px; left: 630px;}
+            75%         {top:280px; left: 630px;}
+            80%         {top:280px; left:590px;}
+            85%         {top: 320px; left: 590px;}
+            100%        {top: 320px; left: 590px;}
+          
             
            
            
@@ -91,7 +97,7 @@ body{
         
 /*mediaquiaries Pantallamediana*/
 
-@media screen and (min-width:500px) and (max-width: 800px) {
+@media screen and (min-width:576px) and (max-width: 768px) {
      body{
         margin: 0;
         padding: 0;
@@ -103,30 +109,21 @@ body{
             background-size: 100%;
             background-repeat: no-repeat;}
     
-        img{width: 20px;}
+        img{width: 15px;}
             @keyframes pacman {
                 0%          {top: 20px; left: 0px; rotate: 0deg;}
-                5%          {top: 20px; left: 75px; rotate: 0deg;}
+                5%          {top: 25px; left: 95px; rotate: 0deg;}
                 8%          {rotate: 90deg;}
-                10%         {top: 70px; left: 75px; rotate: 0deg;}
-                15%         {top: 70px; left: 265px; rotate: 0deg;}
+                10%         {top: 80px; left: 95px; rotate: 0deg;}
+                15%         {top: 80px; left: 315px; rotate: 0deg;}
                 22%, 25%    {rotate: 90deg;}
-                26%         {top: 110px; left: 265px; }
+                26%         {top: 130px; left: 315px; }
                 27%, 30%    {rotate:360deg;}
-                33%         {top: 110px; left: 300px;}
+                33%         {top: 130px; left: 350px;}
                 40%         {rotate: 40deg;}
-                45%         {top: 145px; left:300px ;}
-                50%         {top: 145px; left: 320px;}
-                55%         {top: 190px; left: 320px;}
-                100%         {top: 190px; left: 320px;}
-               
-                
-                
-               
-                
-                
-               
-              
-                
-        }}
+                45%         {top: 170px; left:350px ;}
+                50%         {top: 170px; left: 380px;}
+                55%         {top: 210px; left: 380px;}
+                100%        {top: 210px; left: 380px;}
+            }}
     
